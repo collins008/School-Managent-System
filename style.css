@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Body */
+body {
+    background-color: #fdfdfd; /* light neutral background */
+    color: #333;
+    line-height: 1.6;
+}
+/* Header */
+header {
+    background-color: #004080; /* deep school blue */
+    color: #FFD700; /* bright school yellow */
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin-bottom: 5px;
+}
+/* Navigation */
+nav {
+    background-color: #FFD700; /* yellow bar */
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #004080; /* blue text */
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #800000; /* maroon hover */
+}
+/* Main Content */
+main {
+    padding: 20px;
+}
+/* Form Section */
+form {
+    background-color: #e6f0ff; /* light blue background */
+    border: 2px solid #004080;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #004080;
+}
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    background-color: #FFD700; /* yellow button */
+    color: #004080; /* blue text */
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #800000; /* maroon hover */
+    color: #fff;
+}
+/* Report Output */
+#reportOutput {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px dashed #004080;
+    background-color: #fff8dc; /* light yellow background */
+    min-height: 100px;
+}
+/* Footer */
+footer {
+    background-color: #004080;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
